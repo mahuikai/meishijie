@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset=utf-8"utf-8">
+<title>美食杰时尚餐厅</title>
+<link rel="stylesheet" href="templates/default/css/animate.css" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/css/animate.css">
+<link rel="stylesheet" href="templates/default/css.css" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/css.css">
+<script type="text/javascript" src="templates/default/js/jquery-1.11.1.min.js" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="templates/default/js/wow.min.js" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/js/wow.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+  var wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: true,
+    live: true
+  });
+  wow.init();
+  });
+</script>
+<style>
+body,  div,  p { margin: 0; padding: 0;}
+ul { list-style: none;}
+html { overflow: hidden;}
+body { width: 100%;  *cursor: default;
+overflow: hidden; font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;}
+#pageContain { overflow: hidden;}
+.page { display: none; width: 100%; height: 100%; overflow: hidden; position: absolute; top: 0; left: 0;}
+.contain { width: 100%; height: 100%; display: none; position: relative; z-index: 0;}
+.current .contain, .slide .contain { display: block;}
+.current { display: block; z-index: 1;}
+.slide { display: block; z-index: 2;}
+.swipe { display: block; z-index: 3; transition-duration: 0ms !important; -webkit-transition-duration: 0ms !important;}
+.page1 { background: #fff;}
+.page2 { background: #fff;}
+.page3 { background: #fff;}
+.page4 { background: #fff;}
+.page5 { background: #fff;}
+.page6 { background: #fff;}
+#navBar { z-index: 3; position: absolute; top: 30%; right: 3%;}
+#navBar .active { border:1px solid rgb(195,151,70);}
+#navBar li { cursor: pointer; margin-bottom: 10px; transition: all .7s ease; border-radius: 50%; width: 11px; height: 11px;padding:3px;}
+#navBar li span{background:rgb(195,151,70);border-radius:50%;display: block;width:11px;height:11px;}
+
+.txt { margin-top: 20%; font-size: 50px; color: #fff; text-align: center;}
+</style>
+</head>
+
+<body>
+<div id="pageContain">
+  <div class="page page1 current">
+    <div class="contain">
+      <div class="first">
+        <script type="text/javascript">
+        $(document).ready(function(){
+          $h = $(window).height();
+          
+          $h2 = ($h - 397)/2;
+          $(".firstl").css("height",$h);
+          $(".bannerBox").css("height",$h);
+          $(".bannerList").css("height",$h);
+          $(".bannerList li").css("height",$h);
+          $(".firstrbox").css("height",$h);
+          $(".xban").css("height",$h);
+          $(".firstr").css("height",$h);
+          $(".two").css("height",$h);
+          $(".three").css("height",$h);
+          $(".fourbox").css("height",$h);
+          $(".four").css("height",$h);
+          $(".five").css("height",$h);
+          $(".fivel").css("height",$h);
+          $(".fiver").css("height",$h);
+          $(".fivel_main").css("margin-top",$h2);
+          $('.xban .img6.htm'/*tpa=http://xyj0207.15.baidusx.com/h5/.xban .img6*/).animate({marginTop: '-172px',opacity: 1},3000);
+          $('.xban .img7.htm'/*tpa=http://xyj0207.15.baidusx.com/h5/.xban .img7*/).animate({marginTop: '0',opacity: 1},3000);
+          $('.xban .img8.htm'/*tpa=http://xyj0207.15.baidusx.com/h5/.xban .img8*/).animate({marginTop: '128px',opacity: 1},3000);
+          $('.xban .img9.htm'/*tpa=http://xyj0207.15.baidusx.com/h5/.xban .img9*/).animate({marginTop: '202px',opacity: 1},3000);
+          $(".itit").mouseover(function(){
+            $(this).addClass("pulse");
+          });
+          $(".itit").mouseout(function(){
+            $(this).removeClass("pulse");
+          });
+        });
+        </script>
+          <div class="firstl">
+            <div class="bannerBox">
+              <ul class="bannerList">
+                  <li style="background: url(templates/default/images/x1.jpg) no-repeat right center;">
+                    <div class="xban">
+                      <img class="img1 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0" src="templates/default/images/x3.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x3.png" alt="">
+                      <img class="img2 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0" src="templates/default/images/x4.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x4.png" alt="">
+                      <img class="img3 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x5.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x5.png" alt="">
+                      <img class="img4 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x6.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x6.png" alt="">
+                      <img class="img5 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0s" src="templates/default/images/x7.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x7.png" alt="">
+                      <img class="img6 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x8.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x8.png" alt="">
+                      <img class="img7 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x9.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x9.png" alt="">
+                      <img class="img8 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x10.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x10.png" alt="">
+                      <img class="img9 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" src="templates/default/images/x11.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x11.png" alt="">
+                    </div>  
+                  </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+            $(document).ready(function($){
+              var $showPic =$('.bannerList li');
+              var $btonBox=$('.bannerBton');
+              var _n=0;
+              var _vt=3000;
+              var _vf=1000;
+              var timer;
+              //生成角标
+              for(i=1;i<=$showPic.length;i++){
+                $btonBox.append('<li>'+'</li>');
+              }
+              var $btonList=$btonBox.children('li');
+              //鼠标事件
+              $btonList.each(function(e){
+                  $(this).hover(function(){
+                    clearInterval(timer);
+                    showImg(e);
+                    _n=e;
+                  },function(){
+                    timer = setInterval(auto,_vt);
+                  });
+                });
+              //图片轮换
+              var showImg= function(n){
+                $showPic.eq(n).fadeIn(_vf).siblings().fadeOut();
+                $btonList.eq(n).addClass('up').siblings().removeClass('up');
+                
+              }
+              //自动播放
+              var auto=function(){
+                showImg(_n);
+                _n++
+                if(_n == $showPic.length){_n=0;}
+              }
+              timer = setInterval(auto,_vt);
+              showImg(_n);
+              _n++;
+            });
+            </script>
+          </div>
+          <div class="firstrbox">
+            <div class="firstr">
+              <div class="h83"></div>
+              <div class="wow zoomIn logo" data-wow-duration="1.5s" data-wow-delay="0"><img src="uploadfile/image/20170228/20170228150609_15141.png" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228150609_15141.png"></div>
+              <div class="h70"></div>
+              <div class="nav">
+              
+                <a class="wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0s" href="index.php.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php">网站首页</a>
+                <a class="wow fadeInRightBig" data-wow-duration="1.2s" data-wow-delay="0s" href="index.php-p=about&lanmu=1.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=about&lanmu=1">关于我们</a>
+                <a class="wow fadeInRightBig" data-wow-duration="1.4s" data-wow-delay="0s" href="index.php-p=news_list&lanmu=2.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=news_list&lanmu=2">新闻中心</a>
+                <a class="wow fadeInRightBig" data-wow-duration="1.6s" data-wow-delay="0s" href="index.php-p=products_list&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_list&lanmu=3">产品展示</a>
+                <a class="wow fadeInRightBig" data-wow-duration="1.8s" data-wow-delay="0s" href="index.php-p=case&lanmu=4.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=case&lanmu=4">环境展示</a>
+                <a class="wow fadeInRightBig" data-wow-duration="2.0s" data-wow-delay="0s" href="index.php-p=gbook&lanmu=5.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=gbook&lanmu=5">在线留言</a>
+                <a class="wow fadeInRightBig" data-wow-duration="2.2s" data-wow-delay="0s" href="index.php-p=job_list&lanmu=6.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=job_list&lanmu=6">人才招聘</a>
+                <a class="wow fadeInRightBig" data-wow-duration="2.4s" data-wow-delay="0s" href="index.php-p=about&lanmu=7.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=about&lanmu=7">联系我们</a>
+              </div>
+              <div class="qr"><img class="wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0s" src="templates/default/images/x15.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x15.jpg" alt=""></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="page page2">
+    <div class="contain">
+      <div class="two">
+        <div class="h90"></div>
+        <div class="itit wow" data-wow-duration="1.0s" data-wow-delay="0">
+          <span>PRODUCTS</span>
+          <p>产品展示</p>
+          <img src="templates/default/images/x17.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x17.png" alt="">
+        </div>
+        <div class="img-scroll">
+          <div class="img-list">
+            <ul>
+              
+              <li class="wow bounceInRight" data-wow-duration="1.5s" data-wow-delay="0s">
+                <a href="index.php-p=products_show&id=30&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=30&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171046_36814.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171046_36814.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+              <li class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="0s">
+                <a href="index.php-p=products_show&id=29&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=29&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171046_68584.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171046_68584.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+              <li class="wow bounceInRight" data-wow-duration="2.5s" data-wow-delay="0s">
+                <a href="index.php-p=products_show&id=28&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=28&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171046_63341.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171046_63341.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.php-p=products_show&id=27&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=27&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171046_91353.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171046_91353.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.php-p=products_show&id=26&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=26&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171045_15995.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171045_15995.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+              <li>
+                <a href="index.php-p=products_show&id=25&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&id=25&lanmu=3">
+                <div class="img-list-img"><img src="uploadfile/image/20170228/20170228171045_89293.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171045_89293.jpg" alt=""></div>
+                <p>产品展示</p>
+                <span>本店新品</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="h94"></div>
+          <div class="img-btn">
+            <span class="prev">&lt;</span>
+            <a href="index.php-p=products_list&lanmu=3.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_list&lanmu=3">查看更多</a>
+            <span class="next">&gt;</span>
+          </div>
+        </div>
+
+        <script type="text/javascript">
+          function DY_scroll(wraper,prev,next,img,speed,or)
+          { 
+            var wraper = $(wraper);
+            var prev = $(prev);
+            var next = $(next);
+            var img = $(img).find('ul');
+            var w = img.find('li').outerWidth(true);
+            var s = speed;
+            next.click(function()
+                      {
+                        img.animate({'margin-left':-w},function()
+                                            {
+                                              img.find('li').eq(0).appendTo(img);
+                                              img.css({'margin-left':0});
+                                              });
+                        });
+            prev.click(function()
+                      {
+                        img.find('li:last').prependTo(img);
+                        img.css({'margin-left':-w});
+                        img.animate({'margin-left':0});
+                        });
+            if (or == true)
+            {
+              ad = setInterval(function() { next.click();},s*1000);
+              wraper.hover(function(){clearInterval(ad);},function(){ad = setInterval(function() { next.click();},s*1000);});
+            }
+          }
+          DY_scroll('.img-scroll','.prev','.next','.img-list',3,true);// true为自动播放，不加此参数或false就默认不自动
+        </script>
+      </div>
+    </div>
+  </div>
+
+  <div class="page page3">
+    <div class="contain">
+      <div class="three">
+        <div class="h50"></div>
+        <div class="itit wow" data-wow-duration="1.0s" data-wow-delay="0">
+          <span>NEWS</span>
+          <p>新闻中心</p>
+          <img src="templates/default/images/x17.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x17.png" alt="">
+        </div>
+        <div class="h50"></div>
+         <div class="three_main">
+           <div class="threel">
+             
+             <div class="threel_news">
+              <a href="index.php-p=news_show&id=34&lanmu=2.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=news_show&id=34&lanmu=2">
+              <div class="h27"></div>
+              <span style="display:block;" class="wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0s">餐饮创业要有这样的心态</span>
+              <div class="h14"></div>
+              <div class="wow bounceInLeft line" data-wow-duration="1s" data-wow-delay="1s"></div>
+              <div class="h30"></div>
+              <p class="wow zoomIn" data-wow-duration="1.5s" data-wow-delay="1s">别人看上去餐饮人都是风光的，都想参一脚分一杯羹。然而都不知道作为一位餐饮老板的应有心态便急于开店</p>
+              </a>
+             </div>
+             <div class="threel_ads">
+              <div class="threel_adsl">
+                <div class="h45"></div>
+                <img src="templates/default/images/x22.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x22.png" alt="">
+              </div>
+              <div class="threel_adsr">
+                <div class="h25"></div>
+                <img src="templates/default/images/x23.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x23.jpg" alt="">
+              </div>
+              <div class="cl"></div>
+             </div>
+             <div class="threel_news">
+              <a href="index.php-p=news_show&id=33&lanmu=2.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=news_show&id=33&lanmu=2">
+              <div class="h27"></div>
+              <span style="display:block;" class="wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0s">餐饮创业成功需要哪些条件？</span>
+              <div class="h14"></div>
+              <div class="wow bounceInLeft line" data-wow-duration="1s" data-wow-delay="1s"></div>
+              <div class="h30"></div>
+              <p class="wow zoomIn" data-wow-duration="1.0s" data-wow-delay="1s">1、准确定位是前提 餐饮业是竞争最激烈的行业之一，创业者要把握好错位竞争的原则，寻求经营特色。</p>
+              </a>
+             </div>
+           </div>
+           <div class="threem">
+             <div class="h51"></div>
+             <img class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="0" src="templates/default/images/x24.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x24.png" alt="">
+             <div class="h27"></div>
+             <img class="wow zoomIn" data-wow-duration="2s" data-wow-delay="1s" src="templates/default/images/x25.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x25.jpg" alt="">
+             <div class="h29"></div>
+             <img src="templates/default/images/x26.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x26.jpg" alt="">
+             <div class="h38"></div>
+             <p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0">绝味披萨源自新西兰烧烤，</p>
+             <p class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0">口味鲜嫩柔滑，推荐选用！</p>
+             <div class="h32"></div>
+             <a href="index.php-p=news_list&lanmu=2.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=news_list&lanmu=2" class="wow bounceInUp" data-wow-duration="1s" data-wow-delay="0">SEE MORE</a>
+           </div>
+           <div class="threer">
+             <div class="threerimg wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.8s"><img src="templates/default/images/x27.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x27.jpg" alt=""></div>
+             <div class="threerimg wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1s"><img src="templates/default/images/x28.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x28.jpg" alt=""></div>
+             <div class="threerimg wow fadeInDownBig" data-wow-duration="1s" data-wow-delay="1.2s"><img src="templates/default/images/x29.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x29.jpg" alt=""></div>
+             <div class="threerimg wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.6s"><img src="templates/default/images/x30.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x30.jpg" alt=""></div>
+             <div class="threerimg wow zoomIn" data-wow-duration="1s" data-wow-delay="2s"><img src="templates/default/images/x31.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x31.jpg" alt=""></div>
+             <div class="threerimg wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.4s"><img src="templates/default/images/x32.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x32.jpg" alt=""></div>
+             <div class="threerimg wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s"><img src="templates/default/images/x33.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x33.jpg" alt=""></div>
+             <div class="threerimg wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s"><img src="templates/default/images/x34.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x34.jpg" alt=""></div>
+             <div class="cl"></div>
+           </div>
+           <div class="cl"></div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page page4">
+    <div class="contain">
+      <div class="fourbox">
+        <div class="four">
+          <div class="h50"></div>
+          <div class="itit wow" data-wow-duration="1.0s" data-wow-delay="0">
+            <span>ENVIRONMENT</span>
+            <p>环境展示</p>
+            <img src="templates/default/images/x17.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x17.png" alt="">
+          </div>
+          <div class="h50"></div>
+          <div class="icase">
+            
+            <a href="index.php-p=products_show&lanmu=4&id=38.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&lanmu=4&id=38">
+              <div class="icase3list wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.2s"><img src="uploadfile/image/20170228/20170228172144_61221.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228172144_61221.jpg" alt=""></div>
+              <p class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="1s">环境展示</p>
+            </a>
+            <a href="index.php-p=products_show&lanmu=4&id=37.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&lanmu=4&id=37">
+              <div class="icase3list wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s"><img src="uploadfile/image/20170228/20170228172143_26259.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228172143_26259.jpg" alt=""></div>
+              <p class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="1.2s">环境展示</p>
+            </a>
+            <a href="index.php-p=products_show&lanmu=4&id=36.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&lanmu=4&id=36">
+              <div class="icase3list wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s"><img src="uploadfile/image/20170228/20170228171805_10986.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171805_10986.jpg" alt=""></div>
+              <p class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="1.4s">环境展示</p>
+            </a>
+            <a href="index.php-p=products_show&lanmu=4&id=35.htm" tppabs="http://xyj0207.15.baidusx.com/h5/index.php?p=products_show&lanmu=4&id=35">
+              <div class="icase3list wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.2s"><img src="uploadfile/image/20170228/20170228171805_55807.jpg" tppabs="http://xyj0207.15.baidusx.com/h5/uploadfile/image/20170228/20170228171805_55807.jpg" alt=""></div>
+              <p class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="1.6s">环境展示</p>
+            </a>
+            <div class="cl"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page page5">
+    <div class="contain">
+      <div class="five">
+        <div class="fivel">
+          <div class="wow rotateIn fivel_main" data-wow-duration="2s" data-wow-delay="0.2s">
+            <div class="h77"></div>
+            <img class="wow bounceInDown" data-wow-duration="2s" data-wow-delay="0.2s" src="templates/default/images/x43.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x43.png" alt="">
+            <div class="h30"></div>
+            <div class="wow bounceInRight fivel_maintel" data-wow-duration="2s" data-wow-delay="0.2s">400-0351-012</div>
+            <div class="h50"></div>
+            <img class="wow bounceInUp" data-wow-duration="2s" data-wow-delay="0.2s" src="templates/default/images/x45.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x45.png" alt="">
+          </div>
+        </div>
+        <div class="fiver">
+          <div class="h110"></div>
+           <div class="itit wow" data-wow-duration="1.0s" data-wow-delay="0">
+            <span>MESAGES</span>
+            <p>在线留言</p>
+            <img src="templates/default/images/x17.png" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/images/x17.png" alt="">
+          </div>
+          <div class="h110"></div>
+          <form action="http://xyj0207.15.baidusx.com/h5/index.php?a=gbook_save2" method="post" name="myform">
+            <div class="wow rotateInUpRight fiver_inp" data-wow-duration="1s" data-wow-delay="0.2s">
+              <input type="text" name="lc_title" id="" placeholder="YOU NAME" required>
+            </div>
+            <div class="h26"></div>
+            <div class="wow rotateInUpRight fiver_inp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <input type="text" name="lc_num" id="" placeholder="NUMBLE OF PEOPLE" required>
+            </div>
+            <div class="h26"></div>
+            <div class="wow rotateInUpRight fiver_inp" data-wow-duration="1s" data-wow-delay="0.6s">
+              <input type="text" name="lc_date" id="" placeholder="DATE" required>
+            </div>
+            <div class="h26"></div>
+            <div class="wow rotateInUpRight fiver_inp" data-wow-duration="1s" data-wow-delay="0.8s">
+              <input type="text" name="lc_time" id="" placeholder="TIME" required>
+            </div>
+            <div class="h86"></div>
+            <div class="fiver_btn">
+              <input class="wow bounceInLeft " data-wow-duration="1s" data-wow-delay="1.5s" type="submit" name="" id="submit" value="立即预定">
+              <input class="wow bounceInRight " data-wow-duration="1s" data-wow-delay="1.5s" type="reset" name="" id="" value="重新填写">
+              <div class="cl"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ul id="navBar">
+  <li><span></span></li>
+  <li><span></span></li>
+  <li><span></span></li>
+  <li><span></span></li>
+  <li><span></span></li>
+</ul>
+<script src="templates/default/js/fullPage.min.js" tppabs="http://xyj0207.15.baidusx.com/h5/templates/default/js/fullPage.min.js"></script>
+<script>
+var runPage;
+runPage = new FullPage({
+  id: 'pageContain',
+  slideTime: 800,
+  effect: {
+    transform: {
+      translate: 'XY'
+    },
+    opacity: [0, 1]
+  },
+  mode: 'wheel, touch, nav:navBar',
+  easing: 'ease',
+});
+</script>
+
+</body>
+</html>
